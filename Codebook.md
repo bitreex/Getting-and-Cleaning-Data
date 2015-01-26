@@ -27,13 +27,28 @@ The following steps were taken to tranform the raw data:
 
 ### Varibles
 
-- Unique IDs -- 1 thru 30: that uniquely identifies 1 of 30 volunteers aged between 19-48 years.
-- Activity description -- 1 of 6 distinct activities during which the feature was measured such as LAYING, SITTING, STANDING, WALKING, WALKING DOWNSTAIRS, WALKING UPSTAIRS.
+- Unique IDs (type: interger) -- 1 thru 30: that uniquely identifies 1 of 30 volunteers aged between 19-48 years.
+- Activity description (type: string) -- 1 of 6 distinct activities during which the feature was measured such as LAYING, SITTING, STANDING, WALKING, WALKING DOWNSTAIRS, WALKING UPSTAIRS.
+- Mean and std -- averages of the given feature variable by subject and activity
+- Features (string) -- variable that describes how to interpret each feature name (see below)
 
-### Features
 
-- Varible that describes how to interpret each feature name
+### Features:
 
-### Mean and St.Dev
-
-- Mean of the given feature variable by subject and activity
+tBodyAcc-XYZ <br/>
+tGravityAcc-XYZ <br/>
+tBodyAccJerk-XYZ <br/>
+tBodyGyro-XYZ <br/>
+tBodyGyroJerk-XYZ <br/>
+tBodyAccMag <br/>
+tGravityAccMag <br/>
+tBodyAccJerkMag <br/>
+tBodyGyroMag <br/>
+tBodyGyroJerkMag <br/>
+fBodyAcc-XYZ <br/>
+fBodyAccJerk-XYZ <br/>
+fBodyGyro-XYZ <br/>
+fBodyAccMag <br/>
+fBodyAccJerkMag <br/>
+fBodyGyroMag <br/>
+fBodyGyroJerkMag <br/>
